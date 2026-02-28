@@ -100,7 +100,13 @@ Include every source file that was read during generation, whether or not it con
 
 ### Step 5: Report
 
-Tell the user how many sources were scanned and how many items were extracted.
+Tell the user how many sources were scanned and how many items were extracted. Then check if the project's CLAUDE.md (or AGENTS.md) already references `.claude/docs/lean-context.md`. If it doesn't, suggest the user add this line to their CLAUDE.md:
+
+```
+Read `.claude/docs/lean-context.md` for essential project context.
+```
+
+This ensures the generated context is loaded every session without the skill needing to trigger.
 
 ---
 
