@@ -1,0 +1,14 @@
+{
+  "name": "lean-context",
+  "owner": {
+    "name": "Ahmed Arnaout"
+  },
+  "plugins": [
+    {
+      "name": "lean-context",
+      "source": ".",
+      "description": "Distills verbose project documentation into terse, agent-optimized context files.",
+      "version": "0.1.0"
+    }
+  ]
+}
