@@ -1,4 +1,5 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "lean-context",
   "owner": {
     "name": "Ahmed Arnaout"
@@ -6,9 +7,13 @@
   "plugins": [
     {
       "name": "lean-context",
-      "source": "..",
+      "source": "./plugins/lean-context",
       "description": "Distills verbose project documentation into terse, agent-optimized context files.",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "author": {
+        "name": "Ahmed Arnaout"
+      },
+      "category": "productivity"
     }
   ]
 }
