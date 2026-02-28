@@ -2,5 +2,5 @@
   "name": "lean-context",
   "description": "Distills verbose project documentation into terse, agent-optimized context files.",
   "version": "0.1.0",
-  "author": "Ahmed Arnaout"
+  "author": { "name": "Ahmed Arnaout" }
 }
