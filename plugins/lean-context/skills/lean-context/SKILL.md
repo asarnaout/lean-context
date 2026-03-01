@@ -1,6 +1,6 @@
 ---
 name: lean-context
-description: Scan project documentation and generate a terse, agent-optimized context file. Use when a project has verbose or lengthy documentation, large README files, /docs folders, CLAUDE.md or AGENTS.md files that need trimming, or when the user wants to optimize their project context for coding agents.
+description: Scan project documentation and generate a terse, agent-optimized context file. Use when a project has verbose or lengthy documentation, large README files, /docs folders, or when the user wants to optimize their project context for coding agents.
 ---
 
 # lean-context
