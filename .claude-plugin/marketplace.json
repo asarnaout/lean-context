@@ -9,7 +9,7 @@
       "name": "lean-context",
       "source": "./plugins/lean-context",
       "description": "Distills verbose project documentation into terse, agent-optimized context files.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "Ahmed Arnaout"
       },

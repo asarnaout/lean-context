@@ -315,4 +315,4 @@ Always discard the following. Agents find this faster by reading source code:
 
 - **Deleted source files**: If a manifest lists a file that no longer exists, treat the manifest as stale and regenerate.
 - **Binary/non-text files**: Skip silently.
-- **Enormous files (>10K lines)**: Read only the first 500 lines. Documentation value concentrates at the top.
+
